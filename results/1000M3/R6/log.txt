@@ -1,0 +1,8 @@
+Command: /projects/tallis/binghui2/datasets/FastTree -nt -gtr -nosupport -log /projects/tallis/binghui2/part1b/results/1000M3/R6/log.txt
+FastTree Version 2.1.11 SSE3
+Alignment: standard input
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: none
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Generalized Time-Reversible, CAT approximation with 20 rate categories
+Read 1000 sequences, 2825 positions
