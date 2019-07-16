@@ -1,0 +1,88 @@
+
+
+IMPORTANT WARNING: Sequences SED and SDD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SHF and SEI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SIB and SB are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/datasets/100M3/R5/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1183 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 39.72%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1183
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/datasets/100M3/R5/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/part3-toy/toy_results/100M3/R5/collapsed.txt -w /projects/tallis/binghui2/part3-toy/constrain_results/100M3/R5/ -m GTRGAMMA -T 5 -n estimated 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.255 0.232 0.233 0.281 
+
+Inference[0]: Time 4.812926 GAMMA-based likelihood -49118.616380, best rearrangement setting 5
+alpha[0]: 0.793210 rates[0] ac ag at cg ct gt: 1.364800 4.097071 0.458929 1.390638 4.670510 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -49118.615974 tree written to file /projects/tallis/binghui2/part3-toy/constrain_results/100M3/R5/RAxML_result.estimated
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -49118.615974 .... 
+
+Final GAMMA-based Score of best tree -49118.615974
+
+Program execution info written to /projects/tallis/binghui2/part3-toy/constrain_results/100M3/R5/RAxML_info.estimated
+Best-scoring ML tree written to: /projects/tallis/binghui2/part3-toy/constrain_results/100M3/R5/RAxML_bestTree.estimated
+
+Overall execution time: 5.026455 secs or 0.001396 hours or 0.000058 days
+
