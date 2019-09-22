@@ -1,0 +1,1987 @@
+----------------------------------------
+Begin Torque Prologue (Sat Sep 21 11:18:00 2019)
+Job ID:           9558755.cc-mgmt1.campuscluster.illinois.edu
+Username:         binghui2
+Group:            tallis
+Job Name:         raxml_refine-500M5
+Limits:           nodes=1:ppn=12,walltime=04:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub122
+End Torque Prologue
+----------------------------------------
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SDDE and SDEH are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCGE and SBGE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDAC and SCID are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCBE and SBDA are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDDF and SEFI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SFJ and SEF are exactly identical
+
+IMPORTANT WARNING
+Found 6 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R0/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1319 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 36.04%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1319
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R0/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R0/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R0/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.265 0.238 0.223 0.274 
+
+Inference[0]: Time 62.228328 GAMMA-based likelihood -231244.795854, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -231244.792933 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R0/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -231244.792933 .... 
+
+Final GAMMA-based Score of best tree -231244.792933
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R0/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R0/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 64.506159 secs or 0.017918 hours or 0.000747 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SEAD and SBDB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEJ and SCJH are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDID and SEAC are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBED and SEFG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEJG and SDJD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCJG and SBCH are exactly identical
+
+IMPORTANT WARNING
+Found 6 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R1/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1253 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 33.54%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1253
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R1/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R1/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R1/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.266 0.225 0.224 0.285 
+
+Inference[0]: Time 57.396330 GAMMA-based likelihood -212680.795743, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -212680.795330 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R1/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -212680.795330 .... 
+
+Final GAMMA-based Score of best tree -212680.795330
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R1/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R1/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 59.053894 secs or 0.016404 hours or 0.000683 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SDEG and SBDC are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBHB and SBE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBDJ and SBCB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEJD and SDJB are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R2/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1276 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 32.68%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1276
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R2/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R2/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R2/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.263 0.229 0.230 0.278 
+
+Inference[0]: Time 77.981857 GAMMA-based likelihood -233379.767222, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -233379.766223 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R2/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -233379.766223 .... 
+
+Final GAMMA-based Score of best tree -233379.766223
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R2/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R2/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 80.198163 secs or 0.022277 hours or 0.000928 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SCCA and SDAJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDDJ and SEJA are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R3/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1323 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 36.36%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1323
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R3/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R3/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R3/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.265 0.230 0.226 0.279 
+
+Inference[0]: Time 105.969873 GAMMA-based likelihood -225168.889827, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -225168.887900 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R3/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -225168.887900 .... 
+
+Final GAMMA-based Score of best tree -225168.887900
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R3/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R3/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 108.051871 secs or 0.030014 hours or 0.001251 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SEBI and SCGD are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R4/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1334 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 37.28%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1334
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R4/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R4/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R4/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.288 0.228 0.229 0.255 
+
+Inference[0]: Time 51.237106 GAMMA-based likelihood -249547.602844, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -249547.602076 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R4/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -249547.602076 .... 
+
+Final GAMMA-based Score of best tree -249547.602076
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R4/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R4/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 53.029109 secs or 0.014730 hours or 0.000614 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SHC and SF are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDEE and SCFH are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R5/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1269 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 30.65%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1269
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R5/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R5/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R5/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.255 0.232 0.227 0.286 
+
+Inference[0]: Time 67.894953 GAMMA-based likelihood -245891.992266, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -245891.983246 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R5/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -245891.983246 .... 
+
+Final GAMMA-based Score of best tree -245891.983246
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R5/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R5/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 70.005320 secs or 0.019446 hours or 0.000810 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SIB and SECE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCAE and SJA are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBJF and SBE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBEG and SEJD are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R6/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1366 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 37.68%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1366
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R6/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R6/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R6/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.258 0.238 0.223 0.281 
+
+Inference[0]: Time 55.112417 GAMMA-based likelihood -259198.661877, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -259198.632708 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R6/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -259198.632708 .... 
+
+Final GAMMA-based Score of best tree -259198.632708
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R6/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R6/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 57.190796 secs or 0.015886 hours or 0.000662 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SBH and SBIJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SJA and SCBI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDJJ and SBBF are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEIC and SCGH are exactly identical
+
+
+IMPORTANT WARNING: Sequences SECC and SCCI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBEH and SEDF are exactly identical
+
+IMPORTANT WARNING
+Found 6 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R7/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1357 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 37.25%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1357
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R7/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R7/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R7/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.283 0.233 0.224 0.260 
+
+Inference[0]: Time 74.394055 GAMMA-based likelihood -245093.870074, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -245093.867356 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R7/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -245093.867356 .... 
+
+Final GAMMA-based Score of best tree -245093.867356
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R7/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R7/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 76.118123 secs or 0.021144 hours or 0.000881 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1429 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 43.09%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1429
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R8/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R8/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R8/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.271 0.219 0.238 0.272 
+
+Inference[0]: Time 43.933846 GAMMA-based likelihood -277776.113096, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -277776.109845 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R8/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -277776.109845 .... 
+
+Final GAMMA-based Score of best tree -277776.109845
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R8/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R8/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 45.685460 secs or 0.012690 hours or 0.000529 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SDAG and SCBJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SI and SEHJ are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R9/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1233 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 28.84%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1233
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R9/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R9/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R9/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.287 0.217 0.223 0.273 
+
+Inference[0]: Time 141.462178 GAMMA-based likelihood -240811.323490, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -240811.314268 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R9/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -240811.314268 .... 
+
+Final GAMMA-based Score of best tree -240811.314268
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R9/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R9/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 144.348948 secs or 0.040097 hours or 0.001671 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SBIE and SCGB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBCE and SCJF are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R10/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1376 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 39.81%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1376
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R10/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R10/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R10/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.269 0.237 0.238 0.256 
+
+Inference[0]: Time 44.965819 GAMMA-based likelihood -268082.497822, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -268082.491426 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R10/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -268082.491426 .... 
+
+Final GAMMA-based Score of best tree -268082.491426
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R10/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R10/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 46.892655 secs or 0.013026 hours or 0.000543 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SEAB and SEIC are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R11/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1420 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 44.72%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1420
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R11/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R11/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R11/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.263 0.242 0.230 0.265 
+
+Inference[0]: Time 50.030871 GAMMA-based likelihood -271914.015942, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -271913.771569 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R11/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -271913.771569 .... 
+
+Final GAMMA-based Score of best tree -271913.771569
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R11/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R11/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 53.079300 secs or 0.014744 hours or 0.000614 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SECE and SEB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDFD and SCCC are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R12/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1266 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 29.70%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1266
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R12/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R12/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R12/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.273 0.226 0.230 0.271 
+
+Inference[0]: Time 92.043231 GAMMA-based likelihood -230325.464916, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -230325.463269 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R12/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -230325.463269 .... 
+
+Final GAMMA-based Score of best tree -230325.463269
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R12/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R12/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 94.519688 secs or 0.026255 hours or 0.001094 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SBDE and SCJG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCEH and SDJG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDJC and SFJ are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R13/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1384 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 39.44%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1384
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R13/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R13/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R13/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.260 0.230 0.234 0.276 
+
+Inference[0]: Time 85.557770 GAMMA-based likelihood -273802.992247, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -273802.989664 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R13/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -273802.989664 .... 
+
+Final GAMMA-based Score of best tree -273802.989664
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R13/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R13/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 87.674015 secs or 0.024354 hours or 0.001015 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SEEE and SBGH are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEBE and SFJ are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R14/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1277 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 32.99%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1277
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R14/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R14/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R14/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.273 0.232 0.228 0.267 
+
+Inference[0]: Time 72.615343 GAMMA-based likelihood -223892.042088, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -223892.015950 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R14/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -223892.015950 .... 
+
+Final GAMMA-based Score of best tree -223892.015950
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R14/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R14/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 74.206678 secs or 0.020613 hours or 0.000859 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SCAG and SDCD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDED and SDBB are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R15/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1376 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 38.40%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1376
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R15/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R15/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R15/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.274 0.232 0.221 0.273 
+
+Inference[0]: Time 50.842119 GAMMA-based likelihood -261417.396619, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -261417.393081 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R15/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -261417.393081 .... 
+
+Final GAMMA-based Score of best tree -261417.393081
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R15/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R15/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 52.554962 secs or 0.014599 hours or 0.000608 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SIG and SEFJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBD and SBBB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCGF and SEIG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCJB and SBEF are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R16/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1281 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 32.34%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1281
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R16/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R16/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R16/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.273 0.230 0.224 0.273 
+
+Inference[0]: Time 105.630588 GAMMA-based likelihood -212447.542976, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -212447.537393 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R16/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -212447.537393 .... 
+
+Final GAMMA-based Score of best tree -212447.537393
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R16/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R16/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 108.228782 secs or 0.030064 hours or 0.001253 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SG and SEGE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBAH and SEFD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCEG and SIB are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R17/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1302 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 33.58%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1302
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R17/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R17/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R17/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.259 0.224 0.242 0.275 
+
+Inference[0]: Time 87.888085 GAMMA-based likelihood -231870.550406, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -231870.546728 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R17/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -231870.546728 .... 
+
+Final GAMMA-based Score of best tree -231870.546728
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R17/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R17/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 89.626951 secs or 0.024896 hours or 0.001037 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SBGG and SBA are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCHG and SEJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBHA and SBD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCHB and SEIG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBGF and SDBD are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R18/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1408 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 41.96%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1408
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R18/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R18/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R18/ -m GTRGAMMA -T 3 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.274 0.229 0.232 0.266 
+
+Inference[0]: Time 38.178638 GAMMA-based likelihood -264593.808089, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -264593.807059 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R18/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -264593.807059 .... 
+
+Final GAMMA-based Score of best tree -264593.807059
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R18/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R18/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 39.641783 secs or 0.011012 hours or 0.000459 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SEGC and SEJI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SJG and SCJJ are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCJG and SCGD are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R19/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1180 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 25.40%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1180
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M5/R19/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/19fa/large_aligments/double_fastTree/500M5/R19/fasttree-double-bestml-fp-collapsed.tre -w /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R19/ -m GTRGAMMA -T 2 -n refined_fasttree-double-bestml-fp-collapsed 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.257 0.242 0.233 0.268 
+
+Inference[0]: Time 70.025565 GAMMA-based likelihood -199650.936921, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -199650.935107 tree written to file /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R19/RAxML_result.refined_fasttree-double-bestml-fp-collapsed
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -199650.935107 .... 
+
+Final GAMMA-based Score of best tree -199650.935107
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R19/RAxML_info.refined_fasttree-double-bestml-fp-collapsed
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/refine_double_results/500M5/R19/RAxML_bestTree.refined_fasttree-double-bestml-fp-collapsed
+
+Overall execution time: 72.195800 secs or 0.020054 hours or 0.000836 days
+
+----------------------------------------
+Begin Torque Epilogue (Sat Sep 21 11:42:55 2019)
+Job ID:           9558755.cc-mgmt1.campuscluster.illinois.edu
+Username:         binghui2
+Group:            tallis
+Job Name:         raxml_refine-500M5
+Session:          24822
+Limits:           nodes=1:ppn=12,walltime=04:00:00,neednodes=1:ppn=12
+Resources:        cput=01:04:54,vmem=1031380kb,walltime=00:24:55,mem=123384kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub122
+End Torque Epilogue
+----------------------------------------
