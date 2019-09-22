@@ -1,0 +1,214 @@
+----------------------------------------
+Begin Torque Prologue (Sat Sep 21 20:12:29 2019)
+Job ID:           9562187.cc-mgmt1.campuscluster.illinois.edu
+Username:         binghui2
+Group:            tallis
+Job Name:         RAxML_ONLY-500M1,2-12
+Limits:           nodes=1:ppn=12,walltime=04:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub091
+End Torque Prologue
+----------------------------------------
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 5
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2306 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 68.11%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2306
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M1/R12/rose.aln.true.fasta -p 1 -w /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M1/R12/ -m GTRGAMMA -T 6 -n bestml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.256 0.241 0.251 0.253 
+
+Inference[0]: Time 773.944275 GAMMA-based likelihood -455284.462117, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -455284.192139 tree written to file /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M1/R12/RAxML_result.bestml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -455284.192139 .... 
+
+Final GAMMA-based Score of best tree -455284.192139
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M1/R12/RAxML_info.bestml
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M1/R12/RAxML_bestTree.bestml
+
+Overall execution time: 1023.213607 secs or 0.284226 hours or 0.011843 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences SBEE and SBBF are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/19fa/large_aligments/datasets/500M2/R12/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 5
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2132 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 68.48%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2132
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/19fa/large_aligments/datasets/500M2/R12/rose.aln.true.fasta -p 1 -w /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M2/R12/ -m GTRGAMMA -T 6 -n bestml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.255 0.248 0.246 0.252 
+
+Inference[0]: Time 793.366967 GAMMA-based likelihood -426662.828550, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -426662.642448 tree written to file /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M2/R12/RAxML_result.bestml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -426662.642448 .... 
+
+Final GAMMA-based Score of best tree -426662.642448
+
+Program execution info written to /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M2/R12/RAxML_info.bestml
+Best-scoring ML tree written to: /projects/tallis/binghui2/19fa/large_aligments/raxml_results/500M2/R12/RAxML_bestTree.bestml
+
+Overall execution time: 1013.648298 secs or 0.281569 hours or 0.011732 days
+
+----------------------------------------
+Begin Torque Epilogue (Sat Sep 21 20:46:32 2019)
+Job ID:           9562187.cc-mgmt1.campuscluster.illinois.edu
+Username:         binghui2
+Group:            tallis
+Job Name:         RAxML_ONLY-500M1,2-12
+Session:          39924
+Limits:           nodes=1:ppn=12,walltime=04:00:00,neednodes=1:ppn=12
+Resources:        cput=03:23:43,vmem=465896kb,walltime=00:34:03,mem=176052kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub091
+End Torque Epilogue
+----------------------------------------
