@@ -4,10 +4,21 @@ import numpy as np
 import argparse
 import dendropy
 def main(args):
+	"""
+	collapse all the edges that have support values under certain value within the input trees 
+	Parameters:
+	-t1: The input trees
+		the input unrooted trees to work on
+	-n: The threshold
+		for edges with local support values under this number will be collapsed
+	-o: The output trees
+		the tree with collapsed edges will be written to this file 
+	"""
+	
 	estimatedPath = args.estimated
 	threshold = args.num
 	outputfile = args.outputfile
-    
+    #read the input unrooted trees
 	tax = dendropy.TaxonNamespace()
 	generated = dendropy.Tree.get(path=estimatedPath,
                                       schema="newick",
@@ -18,14 +29,13 @@ def main(args):
     
 	all_bips = generated.encode_bipartitions()
 	E_Map = generated.bipartition_edge_map
-	#support_values = {}
+	#here we iterate through the entire bipartions
 	for bip in all_bips :
-        #if bip not in FalsePositives:
 		e = E_Map[bip]
+		#here we found all the edges with local support values less than threshold and collapse them
 		if (e.head_node).label is not None and float((e.head_node).label) < threshold:
 			e.collapse()
-			#print((e.head_node).label)
-    
+	#write the result to the output file
 	generated.write(path=outputfile, schema="newick")
         
         
