@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -N "step3-500M1-r"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -M binghui2@illinois.edu
+#PBS -m be
+#cd $PBS_O_WORKDIR
+cur_dir="/projects/tallis/binghui2/pipeline"
+cd $cur_dir
+fastTree_Path="/projects/tallis/binghui2/pipeline/fastTree_results"
+collapse_Path="/projects/tallis/binghui2/pipeline/collapse_results"
+refine_Path="/projects/tallis/binghui2/pipeline/refine_results"
+align_Path="/projects/tallis/binghui2/pipeline/datasets"
+output_Path="/projects/tallis/binghui2/pipeline/result.txt"
+for num in 1
+do
+	for fig in {0..19}
+	do
+		for threshold in {0.5,0.8,0.9}
+		do
+			fin_fast_tree=$fastTree_Path/500M$num/R$fig/fasttree-double-bestml.tre
+			fin_fast_log=$fastTree_Path/500M$num/R$fig/log.txt
+			fin_collapse=$collapse_Path/500M$num/R$fig
+			fin_refine=$refine_Path/500M$num/R$fig
+			fin_align=$align_Path/500M$num/R$fig/rose.aln.true.fasta
+			add_info="500M$num,R$fig"
+			./bash_func.sh $fin_align $threshold $fin_fast_tree $fin_fast_log $fin_collapse $fin_refine $add_info $output_Path
+		done
+	done
+done
