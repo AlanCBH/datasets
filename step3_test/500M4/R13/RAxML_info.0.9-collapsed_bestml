@@ -1,0 +1,103 @@
+
+
+IMPORTANT WARNING: Sequences SBGJ and SBCD are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCG and SEIG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDEF and SDGB are exactly identical
+
+
+IMPORTANT WARNING: Sequences SEJC and SIC are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCFF and SBEE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SCJE and SJG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SBAA and SCAA are exactly identical
+
+
+IMPORTANT WARNING: Sequences SDCJ and SHB are exactly identical
+
+IMPORTANT WARNING
+Found 8 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/pipeline/datasets/500M4/R13/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1360 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 40.05%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1360
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/pipeline/datasets/500M4/R13/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/pipeline/collapse_results/500M4/R13/0.9-collapsed_fastTree.txt -w /projects/tallis/binghui2/pipeline/refine_results/500M4/R13 -m GTRGAMMA -T 3 -n 0.9-collapsed_bestml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.275 0.225 0.231 0.269 
+
+Inference[0]: Time 117.863887 GAMMA-based likelihood -195950.587162, best rearrangement setting 5
+alpha[0]: 0.950365 rates[0] ac ag at cg ct gt: 1.155266 3.458812 0.431481 1.318921 4.461264 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -195950.583327 tree written to file /projects/tallis/binghui2/pipeline/refine_results/500M4/R13/RAxML_result.0.9-collapsed_bestml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -195950.583327 .... 
+
+Final GAMMA-based Score of best tree -195950.583327
+
+Program execution info written to /projects/tallis/binghui2/pipeline/refine_results/500M4/R13/RAxML_info.0.9-collapsed_bestml
+Best-scoring ML tree written to: /projects/tallis/binghui2/pipeline/refine_results/500M4/R13/RAxML_bestTree.0.9-collapsed_bestml
+
+Overall execution time: 121.494603 secs or 0.033749 hours or 0.001406 days
+

@@ -1,0 +1,82 @@
+
+
+IMPORTANT WARNING: Sequences SBCI and SBGF are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file /projects/tallis/binghui2/pipeline/datasets/500M4/R16/rose.aln.true.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1551 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 49.29%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1551
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/pipeline/datasets/500M4/R16/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/pipeline/collapse_results/500M4/R16/0.9-collapsed_fastTree.txt -w /projects/tallis/binghui2/pipeline/refine_results/500M4/R16 -m GTRGAMMA -T 3 -n 0.9-collapsed_bestml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.273 0.222 0.237 0.269 
+
+Inference[0]: Time 92.831925 GAMMA-based likelihood -225078.914322, best rearrangement setting 5
+alpha[0]: 0.897826 rates[0] ac ag at cg ct gt: 1.287049 3.455400 0.462320 1.299908 4.659073 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -225078.899815 tree written to file /projects/tallis/binghui2/pipeline/refine_results/500M4/R16/RAxML_result.0.9-collapsed_bestml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -225078.899815 .... 
+
+Final GAMMA-based Score of best tree -225078.899815
+
+Program execution info written to /projects/tallis/binghui2/pipeline/refine_results/500M4/R16/RAxML_info.0.9-collapsed_bestml
+Best-scoring ML tree written to: /projects/tallis/binghui2/pipeline/refine_results/500M4/R16/RAxML_bestTree.0.9-collapsed_bestml
+
+Overall execution time: 97.043574 secs or 0.026957 hours or 0.001123 days
+
