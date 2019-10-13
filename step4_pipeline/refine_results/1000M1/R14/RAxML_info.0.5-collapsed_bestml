@@ -1,0 +1,72 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2643 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 70.67%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2643
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s /projects/tallis/binghui2/step4_pipeline/datasets/1000M1/R14/rose.aln.true.fasta -p 1 -g /projects/tallis/binghui2/step4_pipeline/collapse_results/1000M1/R14/0.5-collapsed_fastTree.txt -w /projects/tallis/binghui2/step4_pipeline/refine_results/1000M1/R14 -m GTRGAMMA -T 6 -n 0.5-collapsed_bestml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.250 0.250 0.248 0.252 
+
+Inference[0]: Time 300.114805 GAMMA-based likelihood -931092.715004, best rearrangement setting 5
+alpha[0]: 0.817981 rates[0] ac ag at cg ct gt: 1.183847 3.342768 0.497325 1.077217 4.127874 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -931092.639696 tree written to file /projects/tallis/binghui2/step4_pipeline/refine_results/1000M1/R14/RAxML_result.0.5-collapsed_bestml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -931092.639696 .... 
+
+Final GAMMA-based Score of best tree -931092.639696
+
+Program execution info written to /projects/tallis/binghui2/step4_pipeline/refine_results/1000M1/R14/RAxML_info.0.5-collapsed_bestml
+Best-scoring ML tree written to: /projects/tallis/binghui2/step4_pipeline/refine_results/1000M1/R14/RAxML_bestTree.0.5-collapsed_bestml
+
+Overall execution time: 304.859315 secs or 0.084683 hours or 0.003528 days
+
