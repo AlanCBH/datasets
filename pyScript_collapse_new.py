@@ -31,10 +31,10 @@ def main(args):
 	internal_edges = generated.internal_edges(exclude_seed_edge=True)
 	collapse_count = 0
 	for edge in internal_edges:
-		if edge.label is not None and edge.label <= threshold:
+		if edge.head_node.label is not None and float((edge.head_node).label) <= threshold:
 			edge.collapse()
 			collapse_count += 1
-		elif edge.label is None:
+		elif edge.head_node.label is None:
 			edge.collapse()
 			collapse_count += 1
 
