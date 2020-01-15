@@ -1,0 +1,23 @@
+method replica alignment factor nl ei1 ei2 fp fn rf
+method replica alignment factor nl ei1 ei2 fp fn rf
+method replica alignment factor nl ei1 ei2 fp fn rf
+raxml 20 0001 0 
+raxml 20 0001 0 1001 998 998 509 509 0.510020
+raxml 20 0001 1 
+raxml 20 0001 1 1001 998 998 490 490 0.490982
+raxml 20 0001 2 
+raxml 20 0001 2 1001 998 998 524 524 0.525050
+raxml 20 0001 3 
+raxml 20 0001 3 1001 998 998 544 544 0.545090
+raxml 20 0001 4 
+raxml 20 0001 4 1001 998 998 563 563 0.564128
+raxml 20 0001 5 
+raxml 20 0001 5 1001 998 998 630 630 0.631263
+raxml 20 0001 6 
+raxml 20 0001 6 
+raxml 20 0001 7 
+raxml 20 0001 7 1001 998 998 627 627 0.628257
+raxml 20 0001 8 
+raxml 20 0001 8 1001 998 998 660 660 0.661323
+raxml 20 0001 9 
+raxml 20 0001 9 
