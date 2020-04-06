@@ -1,0 +1,100 @@
+filename,method,NL,TRUE_NE,ESTI_NE,FN,FP,RF
+out_16S.M.raxml.nwk_factored_-1.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 871 62 89 0.085359
+out_16S.M.raxml.nwk_factored_-1.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 879 69 88 0.088351
+out_16S.M.raxml.nwk_factored_-1.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 871 75 102 0.100057
+out_16S.M.raxml.nwk_factored_-1.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 873 68 93 0.090909
+out_16S.M.raxml.nwk_factored_-2.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 823 180 255 0.252760
+out_16S.M.raxml.nwk_factored_-2.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 829 175 244 0.242617
+out_16S.M.raxml.nwk_factored_-2.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 828 201 271 0.273465
+out_16S.M.raxml.nwk_factored_-2.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 825 183 256 0.254788
+out_16S.M.raxml.nwk_factored_-3.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 663 320 555 0.560538
+out_16S.M.raxml.nwk_factored_-3.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 657 321 562 0.567846
+out_16S.M.raxml.nwk_factored_-3.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 660 320 558 0.563543
+out_16S.M.raxml.nwk_factored_-3.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 647 288 539 0.535275
+out_16S.M.raxml.nwk_factored_-4.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 303 183 778 0.800167
+out_16S.M.raxml.nwk_factored_-4.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 283 168 783 0.805250
+out_16S.M.raxml.nwk_factored_-4.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 292 170 776 0.794958
+out_16S.M.raxml.nwk_factored_-4.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 289 191 800 0.834878
+out_16S.M.raxml.nwk_factored_-5.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 83 57 872 0.946993
+out_16S.M.raxml.nwk_factored_-5.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 92 58 864 0.931313
+out_16S.M.raxml.nwk_factored_-5.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 107 73 864 0.932338
+out_16S.M.raxml.nwk_factored_-5.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 93 57 862 0.927346
+out_16S.M.raxml.nwk_factored_0.txt_hh0_TRUE.phy.res.txt,fastTree,901 898 886 71 83 0.086323
+out_16S.M.raxml.nwk_factored_0.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 883 81 96 0.099382
+out_16S.M.raxml.nwk_factored_0.txt_lh0_TRUE.phy.res.txt,fastTree,901 898 882 78 94 0.096629
+out_16S.M.raxml.nwk_factored_0.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 884 73 87 0.089787
+out_16S.M.raxml.nwk_factored_1.txt_hh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_1.txt_hl0_TRUE.phy.res.txt,fastTree,901 898 886 302 314 0.345291
+out_16S.M.raxml.nwk_factored_1.txt_lh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_1.txt_ll0_TRUE.phy.res.txt,fastTree,901 898 886 281 293 0.321749
+out_16S.M.raxml.nwk_factored_2.txt_hh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_2.txt_hl0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_2.txt_lh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_2.txt_ll0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_3.txt_hh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_3.txt_hl0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_3.txt_lh0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_3.txt_ll0_TRUE.phy.res.txt,fastTree,
+out_16S.M.raxml.nwk_factored_-1.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 83 83 0.092428
+out_16S.M.raxml.nwk_factored_-1.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 87 87 0.096882
+out_16S.M.raxml.nwk_factored_-1.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 82 82 0.091314
+out_16S.M.raxml.nwk_factored_-1.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 79 79 0.087973
+out_16S.M.raxml.nwk_factored_-2.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 250 250 0.278396
+out_16S.M.raxml.nwk_factored_-2.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 251 251 0.279510
+out_16S.M.raxml.nwk_factored_-2.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 265 265 0.295100
+out_16S.M.raxml.nwk_factored_-2.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 245 245 0.272829
+out_16S.M.raxml.nwk_factored_-3.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 574 574 0.639198
+out_16S.M.raxml.nwk_factored_-3.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 566 566 0.630290
+out_16S.M.raxml.nwk_factored_-3.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 559 559 0.622494
+out_16S.M.raxml.nwk_factored_-3.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 584 584 0.650334
+out_16S.M.raxml.nwk_factored_-4.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 775 775 0.863029
+out_16S.M.raxml.nwk_factored_-4.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 781 781 0.869710
+out_16S.M.raxml.nwk_factored_-4.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 751 751 0.836303
+out_16S.M.raxml.nwk_factored_-4.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 794 794 0.884187
+out_16S.M.raxml.nwk_factored_-5.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 865 865 0.963252
+out_16S.M.raxml.nwk_factored_-5.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 867 867 0.965479
+out_16S.M.raxml.nwk_factored_-5.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 877 877 0.976615
+out_16S.M.raxml.nwk_factored_-5.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 869 869 0.967706
+out_16S.M.raxml.nwk_factored_0.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 109 109 0.121381
+out_16S.M.raxml.nwk_factored_0.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 97 97 0.108018
+out_16S.M.raxml.nwk_factored_0.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 111 111 0.123608
+out_16S.M.raxml.nwk_factored_0.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,901 898 898 106 106 0.118040
+out_16S.M.raxml.nwk_factored_1.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,889 886 886 418 418 0.471783
+out_16S.M.raxml.nwk_factored_1.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,889 886 886 368 368 0.415350
+out_16S.M.raxml.nwk_factored_1.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,890 887 887 389 389 0.438557
+out_16S.M.raxml.nwk_factored_1.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,889 886 886 433 433 0.488713
+out_16S.M.raxml.nwk_factored_2.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,891 888 888 665 665 0.748874
+out_16S.M.raxml.nwk_factored_2.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,890 887 887 669 669 0.754228
+out_16S.M.raxml.nwk_factored_2.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,890 887 887 662 662 0.746336
+out_16S.M.raxml.nwk_factored_2.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,891 888 888 682 682 0.768018
+out_16S.M.raxml.nwk_factored_3.txt_hh0_TRUE.phy_iqtree.treefile,iqtree,897 894 894 806 806 0.901566
+out_16S.M.raxml.nwk_factored_3.txt_hl0_TRUE.phy_iqtree.treefile,iqtree,897 894 894 803 803 0.898210
+out_16S.M.raxml.nwk_factored_3.txt_lh0_TRUE.phy_iqtree.treefile,iqtree,899 896 896 813 813 0.907366
+out_16S.M.raxml.nwk_factored_3.txt_ll0_TRUE.phy_iqtree.treefile,iqtree,894 891 891 798 798 0.895623
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-1.txt_hh0_TRUE.phy.reduced_raxml,raxml,828 825 825 45 45 0.054545
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-1.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 83 83 0.092428
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-1.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 93 93 0.103563
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-1.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 84 84 0.093541
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-1.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 79 79 0.087973
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-2.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 247 247 0.275056
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-2.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 243 243 0.270601
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-2.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 254 254 0.282851
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-2.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 239 239 0.266147
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-3.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 550 550 0.612472
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-3.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 560 560 0.623608
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-3.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 551 551 0.613586
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-3.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 567 567 0.631403
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-4.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 766 766 0.853007
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-4.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 765 765 0.851893
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-4.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 749 749 0.834076
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-4.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 784 784 0.873051
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-5.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 862 862 0.959911
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-5.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 864 864 0.962138
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-5.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 873 873 0.972160
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_-5.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 863 863 0.961024
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_0.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 160 160 0.178174
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_0.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 120 120 0.133630
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_0.txt_lh0_TRUE.phy_raxml,raxml,901 898 898 177 177 0.197105
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_0.txt_ll0_TRUE.phy_raxml,raxml,901 898 898 127 127 0.141425
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_1.txt_hh0_TRUE.phy_raxml,raxml,901 898 898 463 463 0.515590
+RAxML_bestTree.out_16S.M.raxml.nwk_factored_1.txt_hl0_TRUE.phy_raxml,raxml,901 898 898 465 465 0.517817
