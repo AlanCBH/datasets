@@ -1,0 +1,17 @@
+filename,p-distance
+3_-1-tryfinal_fa1_hh0_TRUE.phy, 0.039603035572187535
+3_-1-tryfinal_fa1_ll0_TRUE.phy, 0.039526103330689
+3_-2-tryfinal_fa1_hh0_TRUE.phy, 0.02358101964789466
+3_-2-tryfinal_fa1_ll0_TRUE.phy, 0.02302270341905404
+3_-3-tryfinal_fa1_hh0_TRUE.phy, 0.010467109776443096
+3_-3-tryfinal_fa1_ll0_TRUE.phy, 0.010098415749082355
+3_-4-tryfinal_fa1_hh0_TRUE.phy, 0.00393249649649665
+3_-4-tryfinal_fa1_ll0_TRUE.phy, 0.003910562562562849
+3_0-tryfinal_fa1_hh0_TRUE.phy, 0.051626546733442115
+3_0-tryfinal_fa1_ll0_TRUE.phy, 0.051826030894742685
+3_1-tryfinal_fa1_hh0_TRUE.phy, 0.05611046862067522
+3_1-tryfinal_fa1_ll0_TRUE.phy, 0.05607065107496102
+3_2-tryfinal_fa1_hh0_TRUE.phy, 0.057205530780828115
+3_2-tryfinal_fa1_ll0_TRUE.phy, 0.05722222219407255
+3_3-tryfinal_fa1_hh0_TRUE.phy, 0.057537300292023065
+3_3-tryfinal_fa1_ll0_TRUE.phy, 0.057516317404807914
