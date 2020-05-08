@@ -20,5 +20,5 @@ Settings for this run:
 
 -------------------------------------------------------------------------------
 Dataset 1
-	65% of sites contain gaps.
+	70% of sites contain gaps.
 
