@@ -1,189 +1,81 @@
 filename,gap
-3_-1-tryfinal_fa1_hh0_TRUE.phy, 
-3_-1-tryfinal_fa1_hh0_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_hh1_TRUE.phy, 
-3_-1-tryfinal_fa1_hh1_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_hh2_TRUE.phy, 
-3_-1-tryfinal_fa1_hh2_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_hh3_TRUE.phy, 
-3_-1-tryfinal_fa1_hh3_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_hh4_TRUE.phy, 
-3_-1-tryfinal_fa1_hh4_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_ll0_TRUE.phy, 
-3_-1-tryfinal_fa1_ll0_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_ll1_TRUE.phy, 
-3_-1-tryfinal_fa1_ll1_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_ll2_TRUE.phy, 
-3_-1-tryfinal_fa1_ll2_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_ll3_TRUE.phy, 
-3_-1-tryfinal_fa1_ll3_TRUE.phy.reduced, 
-3_-1-tryfinal_fa1_ll4_TRUE.phy, 
-3_-1-tryfinal_fa1_ll4_TRUE.phy.reduced, 
-3_-2-tryfinal_fa1_hh0_TRUE.phy, 
-3_-2-tryfinal_fa1_hh0_TRUE.phy.reduced, 
-3_-2-tryfinal_fa1_hh1_TRUE.phy, 
-3_-2-tryfinal_fa1_hh1_TRUE.phy.reduced, 
-3_-2-tryfinal_fa1_hh2_TRUE.phy, 
-3_-2-tryfinal_fa1_hh2_TRUE.phy.reduced, 
-3_-2-tryfinal_fa1_hh3_TRUE.phy, 
-filename,gap
 3_-1-tryfinal_fa1_hh0_TRUE.phy, 0.002030824895027119
-3_-1-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.0020488368194602246
 3_-1-tryfinal_fa1_hh1_TRUE.phy, 0.0038780793671424106
-3_-1-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.00391147709727226
 3_-1-tryfinal_fa1_hh2_TRUE.phy, 0.002911402642062736
-3_-1-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.002936745343784799
 3_-1-tryfinal_fa1_hh3_TRUE.phy, 0.0069769641099642395
-3_-1-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.00706087418940278
 3_-1-tryfinal_fa1_hh4_TRUE.phy, 0.0067913320327412955
-3_-1-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.006850665712345075
 3_-1-tryfinal_fa1_ll0_TRUE.phy, 0.0028903055214680785
-3_-1-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.0029132376612482714
 3_-1-tryfinal_fa1_ll1_TRUE.phy, 0.003779722281743871
-3_-1-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.003808543489449305
 3_-1-tryfinal_fa1_ll2_TRUE.phy, 0.0
-3_-1-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.0
 3_-1-tryfinal_fa1_ll3_TRUE.phy, 0.0
-3_-1-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.0
 3_-1-tryfinal_fa1_ll4_TRUE.phy, 0.010362043520582787
-3_-1-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.010471908098176006
 3_-2-tryfinal_fa1_hh0_TRUE.phy, 0.0009864608251744802
-3_-2-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.0009959536940117796
 3_-2-tryfinal_fa1_hh1_TRUE.phy, 0.0029184350155942885
-3_-2-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.0029546972308934754
 3_-2-tryfinal_fa1_hh2_TRUE.phy, 0.0010815838333163052
-3_-2-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.0010987837074793597
 3_-2-tryfinal_fa1_hh3_TRUE.phy, 1.0579584927618006e-05
-3_-2-tryfinal_fa1_hh3_TRUE.phy.reduced, 1.1546144165156046e-05
 3_-2-tryfinal_fa1_hh4_TRUE.phy, 0.0020132267590216844
-3_-2-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.0020365173997870206
 3_-2-tryfinal_fa1_ll0_TRUE.phy, 0.0
-3_-2-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.0
 3_-2-tryfinal_fa1_ll1_TRUE.phy, 0.0
-3_-2-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.0
 3_-2-tryfinal_fa1_ll2_TRUE.phy, 0.0
-3_-2-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.0
 3_-2-tryfinal_fa1_ll3_TRUE.phy, 3.5265283092060024e-06
-3_-2-tryfinal_fa1_ll3_TRUE.phy.reduced, 3.7752659674874094e-06
 3_-2-tryfinal_fa1_ll4_TRUE.phy, 0.0009758916020476109
-3_-2-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.0009842973808461882
 3_-3-tryfinal_fa1_hh0_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_hh1_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_hh2_TRUE.phy, 0.0010111223458038423
-3_-3-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.0010241474772367221
 3_-3-tryfinal_fa1_hh3_TRUE.phy, 0.0125392177004586
-3_-3-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.012641518802966102
 3_-3-tryfinal_fa1_hh4_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_ll0_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_ll1_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_ll2_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.0
 3_-3-tryfinal_fa1_ll3_TRUE.phy, 1.0579584927618006e-05
-3_-3-tryfinal_fa1_ll3_TRUE.phy.reduced, 1.2211354117058041e-05
 3_-3-tryfinal_fa1_ll4_TRUE.phy, 0.0
-3_-3-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_hh0_TRUE.phy, 0.0009265685607888868
-3_-4-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.0009512023937054412
 3_-4-tryfinal_fa1_hh1_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_hh2_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_hh3_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_hh4_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_ll0_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_ll1_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_ll2_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_ll3_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.0
 3_-4-tryfinal_fa1_ll4_TRUE.phy, 0.0
-3_-4-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.0
 3_0-tryfinal_fa1_hh0_TRUE.phy, 0.020967892267701366
-3_0-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.021147162100856244
 3_0-tryfinal_fa1_hh1_TRUE.phy, 0.01268198579979734
-3_0-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.01279584099264706
 3_0-tryfinal_fa1_hh2_TRUE.phy, 0.0030379853656306807
-3_0-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.003067351200835364
 3_0-tryfinal_fa1_hh3_TRUE.phy, 0.011683472696156515
-3_0-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.011784112471968259
 3_0-tryfinal_fa1_hh4_TRUE.phy, 0.02923081652939991
-3_0-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.029630331354469287
 3_0-tryfinal_fa1_ll0_TRUE.phy, 0.01245564613011397
-3_0-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.012561981088560886
 3_0-tryfinal_fa1_ll1_TRUE.phy, 0.002943048322954722
-3_0-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.0029694971505928075
 3_0-tryfinal_fa1_ll2_TRUE.phy, 0.008700758913121751
-3_0-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.008783439026168087
 3_0-tryfinal_fa1_ll3_TRUE.phy, 0.0038918425716341176
-3_0-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.0039478635942566
 3_0-tryfinal_fa1_ll4_TRUE.phy, 0.005953027875456206
-3_0-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.006008155474579212
 3_1-tryfinal_fa1_hh0_TRUE.phy, 0.058903559565565096
-3_1-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.05940880824601755
 3_1-tryfinal_fa1_hh1_TRUE.phy, 0.031458056494010025
-3_1-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.028949115669322484
 3_1-tryfinal_fa1_hh2_TRUE.phy, 0.03094087758709708
-3_1-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.031096666854661326
 3_1-tryfinal_fa1_hh3_TRUE.phy, 0.03525255997086959
-3_1-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.03555792546026044
 3_1-tryfinal_fa1_hh4_TRUE.phy, 0.03649030084203161
-3_1-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.03681493110064538
 3_1-tryfinal_fa1_ll0_TRUE.phy, 0.01165210299023008
-3_1-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.011733785927334315
 3_1-tryfinal_fa1_ll1_TRUE.phy, 0.027686051017224055
-3_1-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.027926880811496198
 3_1-tryfinal_fa1_ll2_TRUE.phy, 0.023189485410006243
-3_1-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.023395044671640417
 3_1-tryfinal_fa1_ll3_TRUE.phy, 0.02955265830315837
-3_1-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.02985892343514587
 3_1-tryfinal_fa1_ll4_TRUE.phy, 0.02724910674139949
-3_1-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.027465347786684278
 3_2-tryfinal_fa1_hh0_TRUE.phy, 0.1430770020007182
-3_2-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.14408949742846616
 3_2-tryfinal_fa1_hh1_TRUE.phy, 0.16409053311393762
-3_2-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.1652398165176401
 3_2-tryfinal_fa1_hh2_TRUE.phy, 0.09804944294787594
-3_2-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.09887193098871931
 3_2-tryfinal_fa1_hh3_TRUE.phy, 0.11092522434579542
-3_2-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.11172644418027004
 3_2-tryfinal_fa1_hh4_TRUE.phy, 0.13960511245393536
-3_2-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.1407029849583041
 3_2-tryfinal_fa1_ll0_TRUE.phy, 0.0992413636957929
-3_2-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.09998788819164155
 3_2-tryfinal_fa1_ll1_TRUE.phy, 0.07067672621368129
-3_2-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.07127680253094984
 3_2-tryfinal_fa1_ll2_TRUE.phy, 0.07021965325486781
-3_2-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.07087408004839198
 3_2-tryfinal_fa1_ll3_TRUE.phy, 0.06747707737806748
-3_2-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.0680363998293758
 3_2-tryfinal_fa1_ll4_TRUE.phy, 0.08817633980997976
-3_2-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.0888501339357967
 3_3-tryfinal_fa1_hh0_TRUE.phy, 0.3141853710702524
-3_3-tryfinal_fa1_hh0_TRUE.phy.reduced, 0.3136865408352448
 3_3-tryfinal_fa1_hh1_TRUE.phy, 0.3161612476959611
-3_3-tryfinal_fa1_hh1_TRUE.phy.reduced, 0.31763368477364423
 3_3-tryfinal_fa1_hh2_TRUE.phy, 0.2833185248188172
-3_3-tryfinal_fa1_hh2_TRUE.phy.reduced, 0.28204607151975575
 3_3-tryfinal_fa1_hh3_TRUE.phy, 0.3111330561578517
-3_3-tryfinal_fa1_hh3_TRUE.phy.reduced, 0.3130335065225966
 3_3-tryfinal_fa1_hh4_TRUE.phy, 0.30177460778774773
-3_3-tryfinal_fa1_hh4_TRUE.phy.reduced, 0.30357457697984513
 3_3-tryfinal_fa1_ll0_TRUE.phy, 0.15088754729228207
-3_3-tryfinal_fa1_ll0_TRUE.phy.reduced, 0.15198210818648775
 3_3-tryfinal_fa1_ll1_TRUE.phy, 0.15670345193428123
-3_3-tryfinal_fa1_ll1_TRUE.phy.reduced, 0.15577114656612565
 3_3-tryfinal_fa1_ll2_TRUE.phy, 0.20984677801518087
-3_3-tryfinal_fa1_ll2_TRUE.phy.reduced, 0.21135445883312445
 3_3-tryfinal_fa1_ll3_TRUE.phy, 0.16918256154773745
-3_3-tryfinal_fa1_ll3_TRUE.phy.reduced, 0.1704846782907588
 3_3-tryfinal_fa1_ll4_TRUE.phy, 0.1564114999092551
-3_3-tryfinal_fa1_ll4_TRUE.phy.reduced, 0.15544049378635844
